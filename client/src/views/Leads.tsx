@@ -9,7 +9,7 @@ import {
 import { Dialog } from "../components/ui/Dialog";
 import { Button } from "../components/ui/Button";
 
-const API_URL = "http://localhost:5000/api/leads";
+const API_URL = "https://prospectai-backend.onrender.com/api/leads";
 
 interface Lead {
   id: number;

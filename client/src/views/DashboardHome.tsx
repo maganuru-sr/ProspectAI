@@ -4,7 +4,7 @@ import { Button } from "../components/ui/Button";
 import { PerformanceChart, ConversionFunnelChart } from "../components/ChartWrapper";
 import { Users, UserCheck, Briefcase, CheckSquare, IndianRupee, Plus } from "lucide-react";
 
-const API_URL = "http://localhost:5000/api/dashboard";
+const API_URL = "https://prospectai-backend.onrender.com/api/dashboard";
 
 interface DashboardHomeProps {
   setCurrentView: (view: string) => void;

@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
 
-const API_URL = "http://localhost:5000/api/auth";
+const API_URL = "https://prospectai-backend.onrender.com/api/auth";
 
 export interface User {
   name: string;
