@@ -1,5 +1,4 @@
-import { Prospect } from "../types/prospect";
-
+import type { Prospect } from "../types/prospect";
 export const initialProspects: Prospect[] = [
   {
     id: 1,

@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/Card";
+import { useEffect, useState } from "react";import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/Card";
 import { Button } from "../components/ui/Button";
 import { PerformanceChart, ConversionFunnelChart } from "../components/ChartWrapper";
 import { Users, UserCheck, Briefcase, CheckSquare, IndianRupee, Plus } from "lucide-react";
